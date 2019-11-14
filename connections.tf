@@ -9,9 +9,9 @@ provider "google" {
   region      = "us-central1"
 }
 
-//provider "azurerm" {
-//  subscription_id = "o"
-//  client_id = "1"
-//  client_secret = "2"
-//  tenant_id = "3"
-//}
+provider "azurerm" {
+  subscription_id = "o"
+  client_id = "1"
+  client_secret = "2"
+  tenant_id = "3"
+}
